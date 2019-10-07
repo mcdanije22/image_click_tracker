@@ -1,19 +1,21 @@
-#app{
-}
 #imageContainer{
-  width:300px;
+  width: 300px;
   display: flex;
   flex-wrap: wrap;
-  margin:0 auto;
+  margin: 0 auto;
   justify-content: center;
 }
 .image{
-  padding:1rem;
+  margin: 1rem;
+}
+.imageSelection{
+  border: 4px #5290F6 solid;
+  transition: .1s ease-in;
 }
 p{
   margin: 0;
   padding: 0;
-  margin-left:1rem;
+  margin-left: 1rem;
 }
 #top{
   display: flex;
